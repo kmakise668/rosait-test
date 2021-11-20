@@ -1,0 +1,12 @@
+/*Style Global*/
+@import '../css/global/global.css';
+@import '../css/global/variables.css';
+
+
+/*Style Layouts*/
+@import '../css/layouts/header.css';
+
+
+/*Style Components*/
+@import '../css/components/first-slide.css';
+@import '../css/components/category.css';
