@@ -4,8 +4,8 @@ $('a[href^="#"]').on('click', function(event) {
     event.preventDefault()
     
     var sc = $(this).attr("href"),
-        dn = $(sc).offset().top - $('header.site-header').height()
-    $('html, body').animate({scrollTop: dn}, 700)
+        dn = $(sc).offset().top - $('header.site-header').height();
+    $('html, body').animate({scrollTop: dn}, 700);
 })
 
 
